@@ -50,6 +50,14 @@ div.container5 {
     font-size: 28px;
     line-height: 32px;
 }
+/*small width*/
+@media only screen and (max-width:400px) {
+    div.container5 {
+		font-size: 24px;
+		width: 280px;
+		line-height: 28px;
+		}
+}
 .container5 a {
     display: inline-block;
     position: relative;
@@ -86,7 +94,8 @@ div.container5 {
 
 .logo {
     width: 200px;
-    height: 200px;
+    height: 120px;
+    margin-bottom: 40px;
      -webkit-filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
     filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
     -webkit-align-self: center;
@@ -132,6 +141,10 @@ div.container5 {
     background-size: 38px 38px;
     -webkit-filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
     filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
+}
+/*small width*/
+@media only screen and (max-width:400px) {
+    .icons a { width: 24px; height 24px; background-size: 24px 24px; margin: 0; padding: 0;}
 }
 .icons a:hover {
     -webkit-filter: drop-shadow(0 8px 0 rgba(0,0,0,.1));
